@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>MCQ Generator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>MCQ Generator</h1>
+        <form id="uploadForm">
+            <label for="fileInput">Upload a File:</label>
+            <input type="file" id="fileInput" name="file" required>
+            <button type="submit">Upload</button>
+        </form>
+        <div id="mcqSection" style="display: none;">
+            <label for="numQuestions">Number of MCQs:</label>
+            <input type="number" id="numQuestions" min="1" value="5">
+            <button id="generateMcqsBtn">Generate MCQs</button>
+        </div>
+        <div id="results" style="display: none;">
+            <h2>Results</h2>
+            <a id="downloadText" href="#" target="_blank">Download Text File</a><br>
+            <a id="downloadPdf" href="#" target="_blank">Download PDF</a>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
