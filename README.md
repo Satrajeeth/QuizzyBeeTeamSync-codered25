@@ -1,4 +1,4 @@
-# <a name="mcq-generator"></a> AI-Powered MCQ Generator: Automatically Create Multiple-Choice Questions from Uploaded Text Documents
+# <a name="mcq-generator"></a> QuizzyBee: Automatically Create Multiple-Choice Questions from Uploaded Text Documents
 
 ## Table of Contents
 - [Code Overview and Breakdown](#code-overview-and-breakdown) 
