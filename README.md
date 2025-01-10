@@ -94,12 +94,4 @@ After running the Streamlit app, a URL will be provided in your terminal (usuall
 * Specify the number of questions you want to generate.
 * Download the MCQs as TXT or PDF files.
 
-## Contributing
-Contributions to this project is welcome! If you'd like to contribute, please follow these steps:
-- Fork the project repository. 
-- Create a new branch: git checkout -b feature/your-feature-name. 
-- Make your changes and commit them: git commit -am 'Add your commit message'. 
-- Push the changes to your branch: git push origin feature/your-feature-name. 
-- Submit a pull request detailing your changes.
 
-*Feel free to modify and adapt the project to your needs. If you have any questions or suggestions, please feel free to contact me: godswillodaudu@gmail.com*.
