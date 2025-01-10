@@ -90,8 +90,10 @@ Replace your_script_name.py with the name of the script that contains the code a
 After running the Streamlit app, a URL will be provided in your terminal (usually http://localhost:8501). Open this in your web browser to start using the MCQ generator.
 
 **Step 5: Upload Files and Generate MCQs**
-* Upload a text document in PDF, DOCX, or TXT format.
-* Specify the number of questions you want to generate.
+* Upload a text document in PDF, DOCX, TXT or image format
+* Specify the number of questions you want to generate or the number of points.
 * Download the MCQs as TXT or PDF files.
+* Translation to Hindi available
+* Focus Mode enabled
 
 
